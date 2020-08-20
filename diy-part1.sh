@@ -15,3 +15,6 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#添加自定义插件链接（自己想要什么就github里面搜索然后添加）
+git clone https://github.com/jerrykuku/lua-maxminddb.git
+git clone https://github.com/jerrykuku/luci-app-vssr.git
